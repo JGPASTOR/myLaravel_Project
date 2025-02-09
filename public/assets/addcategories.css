@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.header_profile {
+    display: flex;
+    align-items: center;
+}
+
+.header_profile .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+  min-height: calc(90vh - 60px);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+}
+
+.sidebar .header_profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.email {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.nav ul li ul {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.nav ul li:hover {
+    background-color: hsl(120, 6%, 81%);
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 550px; /* Set a fixed width to match the form size in the image */
+    text-align: left;
+}
+
+.form-container h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+/* Button Styling */
+.add-button {
+    background-color: #00D000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50%;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-button:hover {
+    background-color: #00b800;
+}
+
+/* Footer (unchanged) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 2px solid #e0e0e0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 12px;
+    color: #666;
+}

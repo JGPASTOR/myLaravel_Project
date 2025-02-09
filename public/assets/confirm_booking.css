@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #b3a7f7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .contact {
+    color: black;
+    font-size: 16px;
+}
+
+.header .contact i {
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E6E6FA;
+    padding-bottom: 10px;
+}
+.service-header img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.service-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.service-details h2 {
+    margin: 0;
+}
+.service-details p {
+    margin: 5px 0;
+}
+.service-details .category {
+    margin: 10px 0;
+}
+.service-details .category ul {
+    padding: 0;
+    list-style: none;
+}
+.service-details .category ul li {
+    margin: 5px 0;
+}
+.service-details .provider {
+    display: flex;
+    align-items: center;
+}
+.service-details .provider img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.service-details .provider a {
+    color: #0000EE;
+    text-decoration: none;
+}
+.service-details .provider a:hover {
+    text-decoration: underline;
+}
+.service-price {
+    color: #0000EE;
+    font-size: 24px;
+}
+.schedule-price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.schedule-service {
+    width: 60%;
+}
+.schedule-service h3 {
+    margin: 0 0 10px 0;
+}
+.schedule-service .content {
+    width: 75%;
+    margin: 0;
+}
+.calendar {
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.calendar .month {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.calendar .days {
+    display: flex;
+    justify-content: space-between;
+}
+.calendar .days div {
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.calendar .days div.selected {
+    background-color: #b3a7f7;
+    color: #ffffff;
+}
+.available-slots {
+    margin: 10px 0;
+}
+.available-slots h4 {
+    margin: 0 0 10px 0;
+}
+.available-slots div {
+    display: flex;
+    justify-content: space-between;
+}
+.available-slots .slot {
+    display: block;
+    background-color: #E6E6FA;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+}
+.available-slots .slot.selected {
+    background-color: #b3a7f7;
+    color: white;
+}
+.location {
+    margin: 10px 0;
+}
+.location input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.price-detail {
+    width: 35%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.price-detail h3 {
+    margin: 0 0 10px 0;
+}
+.price-detail .price-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.price-detail .total {
+    font-weight: bold;
+    color: #0000EE;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons .previous {
+    background-color: #ccc;
+}
+.buttons .book-now {
+    background-color: #0000EE;
+    color: white;
+}

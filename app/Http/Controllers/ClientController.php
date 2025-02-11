@@ -62,15 +62,8 @@ class ClientController extends Controller
 
     public function clientBooking(Request $request): Response
     {
-        if (Auth::id()) {
-            $userid = Auth::user()->id;
-            $bookings = Booking::where('user_id', $userid)->get();
-            return inertia('client/booking', [
-                'bookings' => $bookings,
-            ]);
-        } else {
-            return redirect()->back();
-        }
+       
+       
     }
 
     public function pending(Request $request): Response
